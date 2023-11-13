@@ -2,13 +2,13 @@ import streamlit
 
 streamlit.title('Hello world')
 
-streamlit.header('Here is my new resume')
-streamlit.text('Basic')
-streamlit.text('dBase III+')
-streamlit.text('Delphi')
-streamlit.text('Python')
+streamlit.header('New restaurant offering food!')
+streamlit.text('Meat')
+streamlit.text('Fruit')
+streamlit.text('Dairy')
+streamlit.text('Whatever')
 streamlit.text('🥑The end')
-streamlit.header('The learning never ends')
+streamlit.header('Here is the list')
 
 import pandas
 my_fruit_list = pandas.read_csv("https://uni-lab-files.s3.us-west-2.amazonaws.com/dabw/fruit_macros.txt")
