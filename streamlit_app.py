@@ -33,8 +33,6 @@ def get_fruityvice_data(this_fruit_choice):
 
 #New Section to display fruityvice apt response
 streamlit.header('Fruityvice Fruit Advice!')
-#New section to display fruityvice api response
-#streamlit.header('Fruityvice Fruit Advice!')
 try:
   fruit_choice = streamlit.text_input('What fruit would you like information about?')
   if not fruit_choice:
@@ -63,7 +61,7 @@ if streamlit.button('Get Fruit Load List'):
     my_data_rows = get_fruit_load_list()
     streamlit.dataframe(my_data_rows)
 
-#streamlit.write('The user entered', back_from_function)
+streamlit.write('The user entered', back_from_function)
 
 #import requests
 #fruityvice_response = requests.get("https://fruityvice.com/api/fruit/" + fruit_choice)
