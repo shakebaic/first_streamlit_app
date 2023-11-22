@@ -54,7 +54,7 @@ try:
 #streamlit.dataframe(fruityvice_normalized)
 
 # don't run anything past here until we troubleshoot
-streamlit.stop()
+# streamlit.stop()
 
 
 # lesson 2.12
